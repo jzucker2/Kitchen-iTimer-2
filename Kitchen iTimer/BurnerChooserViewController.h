@@ -10,9 +10,10 @@
 
 @protocol BurnerChooserViewControllerDelegate;
 
+
 @class PlacardView;
 
-@interface BurnerChooserViewController : UIViewController {
+@interface BurnerChooserViewController : UIViewController <UIGestureRecognizerDelegate> {
     IBOutlet UIImageView * pic;
     PlacardView *placardView;
     
@@ -25,7 +26,7 @@
 @property (nonatomic, retain) PlacardView *placardView;
 
 - (void)setUpPlacardView;
-- (void)animateFirstTouchAtPoint:(CGPoint)touchPoint;
+//- (void)animateFirstTouchAtPoint:(CGPoint)touchPoint;
 //- (void)animatePlacardViewToCenter;
 - (void)resetPlacardView;
 
@@ -38,6 +39,8 @@
 //- (void) setURL;
 
 - (IBAction) addTimer:(id)sender;
+
+- (void) setUpGesture;
 
 
 @end

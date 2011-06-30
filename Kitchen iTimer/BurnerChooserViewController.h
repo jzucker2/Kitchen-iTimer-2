@@ -13,7 +13,7 @@
 
 @class PlacardView;
 
-@interface BurnerChooserViewController : UIViewController <UIGestureRecognizerDelegate> {
+@interface BurnerChooserViewController : UIViewController {
     IBOutlet UIImageView * pic;
     PlacardView *placardView;
     
@@ -39,8 +39,6 @@
 //- (void) setURL;
 
 - (IBAction) addTimer:(id)sender;
-
-- (void) setUpGesture;
 
 
 @end

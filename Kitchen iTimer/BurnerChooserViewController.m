@@ -45,33 +45,9 @@
 	placardView.center = pic.center;
 	[pic addSubview:placardView];
     [pic bringSubviewToFront:placardView];
-    //[self setUpGesture];
 }
 
-- (void) setUpGesture {
-    UIPanGestureRecognizer *panGesture = nil;
-    panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panViewWithGestureRecognizer:)];
-    
-    [panGesture setMaximumNumberOfTouches:2];
-    [panGesture setDelegate:self];
-    
-    [placardView addGestureRecognizer:panGesture];
-    [panGesture release];
-}
 
-- (void)panViewWithGestureRecognizer:(UIPanGestureRecognizer *)gestureRecognizer
-{    
-    
-    if ([gestureRecognizer state] == UIGestureRecognizerStateBegan 
-        || [gestureRecognizer state] == UIGestureRecognizerStateChanged) 
-    {
-        
-        CGPoint translation = [gestureRecognizer translationInView:[placardView superview]];
-        
-        [pic setCenter:CGPointMake([placardView center].x + translation.x, [placardView center].y + translation.y)];
-        [gestureRecognizer setTranslation:CGPointZero inView:[placardView superview]];
-    }
-}
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {

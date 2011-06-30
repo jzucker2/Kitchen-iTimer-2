@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330C4D4513B14E6400AC24B8 /* BurnerChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330C4D4313B14E6400AC24B8 /* BurnerChooserViewController.m */; };
+		330C4D4613B14E6400AC24B8 /* BurnerChooserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */; };
+		332AB16013BABB29008FA776 /* Placard.png in Resources */ = {isa = PBXBuildFile; fileRef = 332AB15F13BABB29008FA776 /* Placard.png */; };
+		332AB16313BABB34008FA776 /* DisplayStrings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 332AB16213BABB34008FA776 /* DisplayStrings.txt */; };
+		332AB16513BAC1DD008FA776 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332AB16413BAC1DD008FA776 /* QuartzCore.framework */; };
+		33439B4213BA8E5000433BD3 /* iconplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 33439B4113BA8E5000433BD3 /* iconplaceholder.png */; };
+		334E281713B007BC0010084C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281613B007BC0010084C /* UIKit.framework */; };
+		334E281913B007BC0010084C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281813B007BC0010084C /* Foundation.framework */; };
+		334E281B13B007BC0010084C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E281A13B007BC0010084C /* CoreGraphics.framework */; };
+		334E282113B007BC0010084C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 334E281F13B007BC0010084C /* InfoPlist.strings */; };
+		334E282413B007BC0010084C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334E282313B007BC0010084C /* main.m */; };
+		334E282713B007BC0010084C /* Kitchen_iTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334E282613B007BC0010084C /* Kitchen_iTimerAppDelegate.m */; };
+		334E282A13B007BC0010084C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334E282813B007BC0010084C /* MainWindow.xib */; };
+		334E282D13B007BC0010084C /* Kitchen_iTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334E282C13B007BC0010084C /* Kitchen_iTimerViewController.m */; };
+		334E283013B007BC0010084C /* Kitchen_iTimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334E282E13B007BC0010084C /* Kitchen_iTimerView.xib */; };
+		3389C09F13BA9271000CDBD2 /* PlacardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389C09E13BA9271000CDBD2 /* PlacardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		330C4D4213B14E6400AC24B8 /* BurnerChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurnerChooserViewController.h; sourceTree = "<group>"; };
+		330C4D4313B14E6400AC24B8 /* BurnerChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurnerChooserViewController.m; sourceTree = "<group>"; };
+		330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BurnerChooserView.xib; sourceTree = "<group>"; };
+		332AB15F13BABB29008FA776 /* Placard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placard.png; sourceTree = "<group>"; };
+		332AB16213BABB34008FA776 /* DisplayStrings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DisplayStrings.txt; sourceTree = "<group>"; };
+		332AB16413BAC1DD008FA776 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		33439B4113BA8E5000433BD3 /* iconplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconplaceholder.png; sourceTree = "<group>"; };
+		334E281213B007BB0010084C /* Kitchen iTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen iTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334E281613B007BC0010084C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		334E281813B007BC0010084C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		334E281A13B007BC0010084C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		334E281E13B007BC0010084C /* Kitchen iTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kitchen iTimer-Info.plist"; sourceTree = "<group>"; };
+		334E282013B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		334E282213B007BC0010084C /* Kitchen iTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kitchen iTimer-Prefix.pch"; sourceTree = "<group>"; };
+		334E282313B007BC0010084C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334E282513B007BC0010084C /* Kitchen_iTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen_iTimerAppDelegate.h; sourceTree = "<group>"; };
+		334E282613B007BC0010084C /* Kitchen_iTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen_iTimerAppDelegate.m; sourceTree = "<group>"; };
+		334E282913B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		334E282B13B007BC0010084C /* Kitchen_iTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kitchen_iTimerViewController.h; sourceTree = "<group>"; };
+		334E282C13B007BC0010084C /* Kitchen_iTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kitchen_iTimerViewController.m; sourceTree = "<group>"; };
+		334E282F13B007BC0010084C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Kitchen_iTimerView.xib; sourceTree = "<group>"; };
+		3389C09D13BA9271000CDBD2 /* PlacardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacardView.h; sourceTree = "<group>"; };
+		3389C09E13BA9271000CDBD2 /* PlacardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334E280F13B007BB0010084C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332AB16513BAC1DD008FA776 /* QuartzCore.framework in Frameworks */,
+				334E281713B007BC0010084C /* UIKit.framework in Frameworks */,
+				334E281913B007BC0010084C /* Foundation.framework in Frameworks */,
+				334E281B13B007BC0010084C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334E280713B007BB0010084C = {
+			isa = PBXGroup;
+			children = (
+				3389C09D13BA9271000CDBD2 /* PlacardView.h */,
+				3389C09E13BA9271000CDBD2 /* PlacardView.m */,
+				3389C09213BA91F7000CDBD2 /* Resources */,
+				334E281C13B007BC0010084C /* Kitchen iTimer */,
+				334E281513B007BC0010084C /* Frameworks */,
+				334E281313B007BB0010084C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		334E281313B007BB0010084C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334E281213B007BB0010084C /* Kitchen iTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334E281513B007BC0010084C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				332AB16413BAC1DD008FA776 /* QuartzCore.framework */,
+				334E281613B007BC0010084C /* UIKit.framework */,
+				334E281813B007BC0010084C /* Foundation.framework */,
+				334E281A13B007BC0010084C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		334E281C13B007BC0010084C /* Kitchen iTimer */ = {
+			isa = PBXGroup;
+			children = (
+				334E282513B007BC0010084C /* Kitchen_iTimerAppDelegate.h */,
+				334E282613B007BC0010084C /* Kitchen_iTimerAppDelegate.m */,
+				334E282813B007BC0010084C /* MainWindow.xib */,
+				33BEE7E213B11BCA005F9E7E /* Main Menu */,
+				334E281D13B007BC0010084C /* Supporting Files */,
+				33BEE7E413B11BD1005F9E7E /* Choose Burner */,
+			);
+			path = "Kitchen iTimer";
+			sourceTree = "<group>";
+		};
+		334E281D13B007BC0010084C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334E281E13B007BC0010084C /* Kitchen iTimer-Info.plist */,
+				334E281F13B007BC0010084C /* InfoPlist.strings */,
+				334E282213B007BC0010084C /* Kitchen iTimer-Prefix.pch */,
+				334E282313B007BC0010084C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3389C09213BA91F7000CDBD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3389C09413BA9203000CDBD2 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3389C09413BA9203000CDBD2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				332AB15F13BABB29008FA776 /* Placard.png */,
+				332AB16213BABB34008FA776 /* DisplayStrings.txt */,
+				33439B4113BA8E5000433BD3 /* iconplaceholder.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		33BEE7E213B11BCA005F9E7E /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				334E282B13B007BC0010084C /* Kitchen_iTimerViewController.h */,
+				334E282C13B007BC0010084C /* Kitchen_iTimerViewController.m */,
+				334E282E13B007BC0010084C /* Kitchen_iTimerView.xib */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		33BEE7E413B11BD1005F9E7E /* Choose Burner */ = {
+			isa = PBXGroup;
+			children = (
+				330C4D4213B14E6400AC24B8 /* BurnerChooserViewController.h */,
+				330C4D4313B14E6400AC24B8 /* BurnerChooserViewController.m */,
+				330C4D4413B14E6400AC24B8 /* BurnerChooserView.xib */,
+			);
+			name = "Choose Burner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334E281113B007BB0010084C /* Kitchen iTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334E283313B007BC0010084C /* Build configuration list for PBXNativeTarget "Kitchen iTimer" */;
+			buildPhases = (
+				334E280E13B007BB0010084C /* Sources */,
+				334E280F13B007BB0010084C /* Frameworks */,
+				334E281013B007BB0010084C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitchen iTimer";
+			productName = "Kitchen iTimer";
+			productReference = 334E281213B007BB0010084C /* Kitchen iTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334E280913B007BB0010084C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Illinois";
+			};
+			buildConfigurationList = 334E280C13B007BB0010084C /* Build configuration list for PBXProject "Kitchen iTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 334E280713B007BB0010084C;
+			productRefGroup = 334E281313B007BB0010084C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334E281113B007BB0010084C /* Kitchen iTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334E281013B007BB0010084C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334E282113B007BC0010084C /* InfoPlist.strings in Resources */,
+				334E282A13B007BC0010084C /* MainWindow.xib in Resources */,
+				334E283013B007BC0010084C /* Kitchen_iTimerView.xib in Resources */,
+				330C4D4613B14E6400AC24B8 /* BurnerChooserView.xib in Resources */,
+				33439B4213BA8E5000433BD3 /* iconplaceholder.png in Resources */,
+				332AB16013BABB29008FA776 /* Placard.png in Resources */,
+				332AB16313BABB34008FA776 /* DisplayStrings.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334E280E13B007BB0010084C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334E282413B007BC0010084C /* main.m in Sources */,
+				334E282713B007BC0010084C /* Kitchen_iTimerAppDelegate.m in Sources */,
+				334E282D13B007BC0010084C /* Kitchen_iTimerViewController.m in Sources */,
+				330C4D4513B14E6400AC24B8 /* BurnerChooserViewController.m in Sources */,
+				3389C09F13BA9271000CDBD2 /* PlacardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		334E281F13B007BC0010084C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334E282013B007BC0010084C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		334E282813B007BC0010084C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334E282913B007BC0010084C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		334E282E13B007BC0010084C /* Kitchen_iTimerView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334E282F13B007BC0010084C /* en */,
+			);
+			name = Kitchen_iTimerView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334E283113B007BC0010084C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		334E283213B007BC0010084C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		334E283413B007BC0010084C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kitchen iTimer/Kitchen iTimer-Prefix.pch";
+				INFOPLIST_FILE = "Kitchen iTimer/Kitchen iTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		334E283513B007BC0010084C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kitchen iTimer/Kitchen iTimer-Prefix.pch";
+				INFOPLIST_FILE = "Kitchen iTimer/Kitchen iTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334E280C13B007BB0010084C /* Build configuration list for PBXProject "Kitchen iTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334E283113B007BC0010084C /* Debug */,
+				334E283213B007BC0010084C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334E283313B007BC0010084C /* Build configuration list for PBXNativeTarget "Kitchen iTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334E283413B007BC0010084C /* Debug */,
+				334E283513B007BC0010084C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334E280913B007BB0010084C /* Project object */;
+}
